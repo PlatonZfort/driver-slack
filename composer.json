@@ -1,5 +1,5 @@
 {
-    "name": "botman/driver-slack",
+    "name": "botman-platobakl/driver-slack",
     "license": "MIT",
     "description": "Slack driver for BotMan",
     "keywords": [
@@ -15,7 +15,7 @@
     "require": {
         "php": ">=7.0",
         "botman/botman": "~2.1",
-        "mpociot/slack-client": "~1.0"
+        "platobakl/slack-client": "~1.0"
     },
     "require-dev": {
         "botman/studio-addons": "~1.0",
@@ -26,7 +26,7 @@
         "ext-curl": "*"
     },
     "suggest": {
-        "mpociot/slack-client": "Use the Slack RTM API with BotMan"
+        "platobakl/slack-client": "Use the Slack RTM API with BotMan"
     },
     "autoload": {
         "psr-4": {
